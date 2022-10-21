@@ -208,6 +208,7 @@ var handler = (event) => {
   
   var keyValue = event.key;
   var keyCode = event.keyCode;
+  console.log(keyCode)
   
 let strStartsWithALetter = isLetter(keyCode);
  
